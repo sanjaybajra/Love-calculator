@@ -99,7 +99,8 @@ form #btn{
     border: 0ch;
     border-radius: 10px;
     font-size: 3vh;
-    background-color: pink;
+    background-color:rgb(203, 137, 203);
+    color:white;
 }
 #btn:hover{
     cursor: pointer;
@@ -208,10 +209,10 @@ border-bottom: 1.5px solid white;
 }
 form #btn{
     margin-top: 60px;
-    padding: 1.3vh 6vw;
+    padding: 1.8vh 8vw;
     border: 0ch;
     border-radius: 10px;
-    font-size: 2vh;
+    font-size: 2.5vh;
     font-weight: 600;
 }
 #btn:hover{
