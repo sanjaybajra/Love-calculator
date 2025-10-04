@@ -12,7 +12,7 @@ html,body{
 #main{
     height:100%;
     width: 100%;
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 0.995);
     display:flex;
     align-items: center;
     justify-content: center;
@@ -142,7 +142,7 @@ justify-content: center;
 form{
     box-sizing: border-box;
     height: 50%;
-    width: 70%;
+    width: 90%;
     display: inline-block;
     align-items: center;
     justify-content: space-around;
@@ -161,7 +161,7 @@ h1{
 #boy{
     height: 20px;
     width: 100%;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
