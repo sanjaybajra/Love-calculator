@@ -210,6 +210,7 @@ border-bottom: 1.5px solid white;
 form #btn{
     margin-top: 60px;
     padding: 1.8vh 8vw;
+       background-color:rgb(203, 137, 203);
     border: 0ch;
     border-radius: 10px;
     font-size: 2.5vh;
