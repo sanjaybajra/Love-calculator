@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+   
+}
+
+#main{
+    height:100%;
+    width: 100%;
+    background-color: pink;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+ 
+}
+
+form{
+    box-sizing: border-box;
+    height: 60%;
+    width: 50%;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    align-content:center;
+    border: 2px solid black;
+    background-image: url(./image/love.webp);
+    background-size: cover;
+    background-position: center;
+     border-radius: 10px;
+}
+h1{
+    font-size: 3vw;
+    font-weight: 200;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    margin-bottom: 50px;
+    color: pink;
+}
+#boy{
+    height: 10px;
+    width: 100%;
+    margin-bottom: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#boy label{
+    font-size: 1.6vw;
+    font-weight: 400;
+    color: white;
+    font-family: fantasy;
+}
+#boy input{
+     font-size: 2vw;
+    height: 30px;
+    width: 50%;
+    background: transparent;
+    border: none;
+border-bottom: 1.5px solid white;
+color: whitesmoke;
+
+}
+#girl{
+    height: 10px;
+    width: 100%;
+
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#girl label{
+    font-size: 1.6vw;
+    font-weight: 400;
+    color: white;
+    font-family: fantasy;
+}
+#girl input{
+    font-size: 2vw;
+    height: 30px;
+    width: 50%;
+    background: transparent;
+    border: none;
+border-bottom: 1.5px solid white;
+color: whitesmoke;
+}
+form #btn{
+    margin-top: 70px;
+    padding: 1.7vh 4vw;
+    border: 0ch;
+    border-radius: 10px;
+    font-size: 3vh;
+    background-color: pink;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#love{
+    height: 70px;
+    width: 100%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 800;
+
+}
+#love #calc{
+    height: 50px;
+    width: 80%;
+    
+    text-align: center;
+    font-size: 4vh;
+    display: flex;
+align-items: center;
+justify-content: center;
+
+}
+@media (max-width:600px){
+    #main{
+    height:100vh;
+    width: 100%;
+    background-color: pink;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+ 
+}
+
+form{
+    box-sizing: border-box;
+    height: 50%;
+    width: 70%;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    align-content:center;
+   
+}
+h1{
+    font-size: 5vw;
+    font-weight: 400;
+    font-family: fantasy;
+    letter-spacing: 2px;
+    margin-bottom: 60px;
+    color: pink;
+}
+#boy{
+    height: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+#boy label{
+    font-size: 3vw;
+    font-weight: 400;
+    color: white;
+    font-family: fantasy;
+}
+#boy input{
+     font-size: 3vw;
+    height: 30px;
+    width: 50%;
+    background: transparent;
+    border: none;
+border-bottom: 1.5px solid white;
+
+}
+#girl{
+    height: 20px;
+    width: 100%;
+
+     display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#girl label{
+    font-size: 3vw;
+    font-weight: 400;
+    color: white;
+    font-family: fantasy;
+}
+#girl input{
+    font-size: 3vw;
+    height: 30px;
+    width: 50%;
+    background: transparent;
+    border: none;
+border-bottom: 1.5px solid white;
+
+}
+form #btn{
+    margin-top: 60px;
+    padding: 1.3vh 3vw;
+    border: 0ch;
+    border-radius: 10px;
+    font-size: 2vh;
+    font-weight: 500;
+}
+#btn:hover{
+    cursor: pointer;
+}
+#love{
+    height: 50px;
+    width: 100%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    font-weight: 800;
+
+}
+#love #calc{
+    height:10px;
+    width: 50%;
+    
+    text-align: center;
+    font-size: 1.9vh;
+    display: flex;
+align-items: center;
+justify-content: center;
+}
+}
